@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="220sp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="70dp"
+        android:inputType="textPersonName"
+        android:hint="Introduzca Su Usuario"
+        />
+    <EditText
+        android:id="@+id/Contraseña"
+        android:layout_width="220sp"
+        android:layout_height="50sp"
+        android:inputType="numberPassword"
+        android:hint="Introduzca Su Contraseña"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="70dp"/>
+
+
+    <Button
+        android:id="@+id/Limpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpiar"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/themeDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+    <Spinner
+        android:id="@+id/Spinnertemas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"/>
+</LinearLayout>
