@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
-    <color name="colorAccent">#9DBDBA</color>
-    <color name="lightBackground">#F5F5F5</color>
-    <color name="darkBackground">#333333</color>
-    <color name="theme1Primary">#FF5722</color>
-    <color name="theme1Background">#9B8268</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="lightBackground">#FAFAFA</color>
+    <color name="darkBackground">#212121</color>
+
+    <color name="Tema1">#FF9800</color>
+    <color name="Tema1Dark">#F57C00</color>
+    <color name="Tema1Accent">#FFC107</color>
+    <color name="Tema1background">#FFE0B2</color>
 
 
 
-    <color name="theme2Primary">#4CAF50</color>
-    <color name="theme2Background">#8BC34A</color>
-    <color name="theme3Primary">#795548</color>
-    <color name="theme3Background">#9E9E9E</color>
+    <color name="Tema2Primary">#4CAF50</color>
+    <color name="Tema2background">#8BC34A</color>
+    <color name="Tema2Dark">#0099CC	</color>
+    <color name="Tema2Accent">#FFC107</color>
+
+
+    <color name="Tema3Primary">#009688</color>
+    <color name="Tema3background">#B2DFDB</color>
+    <color name="Tema3Dark">#00796B</color>
+    <color name="Tema3Accent">#FF5722</color>
+
 </resources>
